@@ -1,0 +1,206 @@
+body{
+    background-color: #FBF8F1;
+}
+.all{
+    margin: 0px;
+}
+.head{
+    height: 200px;
+    display: flex;
+    position: relative;
+    color: #C3937C;
+}
+.logo{
+
+    height: 200px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    height: 100px;
+    width: 256px;
+}
+.button_head_center{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button_head_center p{
+    margin: 10px;
+}
+
+.button_head_right{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.button_head_right div{
+    height: 50px;
+    width: 151px;
+    border: #C3937C solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: #C3937C;
+    
+}
+.link_class {
+    display: block;
+    overflow: auto;
+    
+}
+
+/* line 2 */
+.line2{
+    display: flex;
+    justify-content: start;
+    top: 40px;
+    position: relative;
+}
+
+.description_1{
+    height: 200px;
+    width: 25%;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #C3937C;
+   
+}
+.description_1 div p{
+    height: 50px;
+    width: 151px;
+    border: #C3937C solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #C3937C;
+
+}
+/* img wedding */
+
+.photoWedding{
+    height: 500px;
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    left: 600px;
+    margin-top: -100px;
+    width: fit-content;
+    z-index: +1;
+}
+/* img sea */
+.backgroundSea{
+    height: 300px;
+    display: flex;
+    width: 900px;
+    justify-content:flex-end;
+    position: absolute;
+    left: 600px;
+    margin-top: 100px;
+}
+.backgroundSea img{
+    height: 300px;
+    width: 900px;
+}
+/* flowerbottom */
+.flowerbottom{
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    left: 600px;
+    margin-top: 250px;
+    z-index: +2;   
+}
+.flowerbottom img {
+    height: 200px;
+    width: 400px;
+}
+
+/* .backgroundSea img{
+    width: auto;
+} */
+.point_img{
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    left: 600px;
+    margin-top: 10px;
+    z-index: +2;   
+}
+.point_img img{
+    height: 600px;
+    width: 600px;
+}
+.point_img2{
+    display: flex;
+    justify-content:flex-end;
+    position: absolute;
+    left: 500px;
+    margin-top: 0px;
+    z-index: 0; 
+}
+.point_img2 img {
+    height: 500px;
+    width: 400px;
+}
+.flowerup {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 900px;
+    margin-top: -100px;
+    z-index: 0;
+}
+
+.flowerup img {
+    height: 300px;
+    width: 150px;
+}
+
+/* line 3 */
+.line3{
+    margin-top: 270px;
+    display: flex;
+    justify-content: first baseline;
+}
+.line3_wedding_img{
+    margin-left: 50px;
+    height: 400px;
+    width: 75%;
+}
+.line3_wedding_img img{
+    height: 601px;
+    width: 860px;
+}
+.line3_flower_img_top{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -20px;
+}
+/* cake */
+.line3_cake_img{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 500px;
+
+}
+.line3_cake_img img{
+    height: 351px;
+    width: 267;
+}
+/* flower bottom */
+.line3_flower{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 700px;
+    z-index: -1;
+}
+    
